@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{double a;
+double b ;
+printf("请输入两个数字:\n");
+double c;
+scanf("%lf %lf",&a,&b);
+c=(a+b)/2.0;
+printf("%f和%f的平均数为%f\n",a,b,c);
+
+return 0;
+
+}
